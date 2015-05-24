@@ -1,50 +1,99 @@
 package net.amicom.swift;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 import it.gmariotti.cardslib.library.internal.Card;
-import it.gmariotti.cardslib.library.internal.CardArrayAdapter;
+import it.gmariotti.cardslib.library.internal.CardGridArrayAdapter;
 import it.gmariotti.cardslib.library.internal.CardHeader;
-import it.gmariotti.cardslib.library.view.CardListView;
+import it.gmariotti.cardslib.library.view.CardGridView;
 
 public class ContainerActivity extends Activity {
+
+    TextView userName;
+    Button uploadButton;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_container);
+        userName = (TextView) findViewById(R.id.usernameText);
+        uploadButton = (Button) findViewById(R.id.uploadButton);
+
+
+        //asdf
+
+
+        Container container = new Container();
+        container.setName("Hyun Jae");
+        userName.setText(container.getName());
+        ArrayList<Obj> objlist = new ArrayList<Obj>();
+
+        for (int i = 0; i < 10; i++) {
+            Obj o = new Obj();
+            o.setBytes(i * 10);
+            o.setLast_modified("date : " + i);
+            o.setName("User " + i);
+            objlist.add(o);
+        }
+
+        //asdf
+
+
+        container.setObjectList(objlist);
 
         ArrayList<Card> cards = new ArrayList<Card>();
 
-        //Create a Card
-        Card card = new Card(ContainerActivity.this);
+        for (final Obj object : container.getObjectList()) {
 
-        //Create a CardHeader
-        CardHeader header = new CardHeader(ContainerActivity.this);
+            Card card = new Card(ContainerActivity.this);
 
-        //Add Header to card
-        card.addCardHeader(header);
+            card.setOnClickListener(new Card.OnCardClickListener() {
+                @Override
+                public void onClick(Card card, View view) {
 
-        cards.add(card);
-        cards.add(card);
-        cards.add(card);
-        cards.add(card);
-        cards.add(card);
-        cards.add(card);
-        cards.add(card);
-        cards.add(card);
-        cards.add(card);
+                    Toast.makeText(ContainerActivity.this,
+                            "bytes = " + object.getBytes() + "last-modified " + object.getLast_modified(), Toast.LENGTH_SHORT).show();
 
-        CardArrayAdapter mCardArrayAdapter = new CardArrayAdapter(ContainerActivity.this, cards);
+                }
+            });
 
-        CardListView listView = (CardListView) ContainerActivity.this.findViewById(R.id.myList);
-        if (listView != null) {
-            listView.setAdapter(mCardArrayAdapter);
+
+            CardHeader header = new CardHeader(ContainerActivity.this);
+            header.setTitle(object.getName());
+
+            //Add Header to card
+            card.addCardHeader(header);
+
+            cards.add(card);
+
+
         }
 
+        CardGridArrayAdapter mCardArrayAdapter = new CardGridArrayAdapter(ContainerActivity.this, cards);
+
+        CardGridView gridView = (CardGridView) ContainerActivity.this.findViewById(R.id.myGrid);
+        if (gridView != null) {
+            gridView.setAdapter(mCardArrayAdapter);
+        }
+
+
+        uploadButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
     }
 }

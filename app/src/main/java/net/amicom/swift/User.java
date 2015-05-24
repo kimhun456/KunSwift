@@ -17,6 +17,10 @@ public class User {
     }
 
 
+    User(){
+
+    }
+
 
 
 }
