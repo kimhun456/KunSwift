@@ -78,7 +78,7 @@ public class LoginActivity extends Activity {
 
     private void makePostRequest(User user) {
 
-        String url= "";
+        String url= "http://127.0.0.1";
 
         HttpClient httpClient = new DefaultHttpClient();
         // replace with your url

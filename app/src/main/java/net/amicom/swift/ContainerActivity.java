@@ -1,15 +1,17 @@
 package net.amicom.swift;
 
 import android.app.Activity;
-import android.content.Intent;
+import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
 import java.util.ArrayList;
 
+import ar.com.daidalos.afiledialog.FileChooserDialog;
 import it.gmariotti.cardslib.library.internal.Card;
 import it.gmariotti.cardslib.library.internal.CardGridArrayAdapter;
 import it.gmariotti.cardslib.library.internal.CardHeader;
@@ -90,9 +92,27 @@ public class ContainerActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
+                FileChooserDialog dialog = new FileChooserDialog(ContainerActivity.this);
+                dialog.addListener(new FileChooserDialog.OnFileSelectedListener() {
+                    @Override
+                    public void onFileSelected(Dialog source, File file) {
+                        Toast toast = Toast.makeText(ContainerActivity.this, "File selected: " + file.getName(), Toast.LENGTH_LONG);
+                        toast.show();
+                    }
 
+                    @Override
+                    public void onFileSelected(Dialog source, File folder, String name) {
+                        Toast toast = Toast.makeText(ContainerActivity.this, "File selected: " + folder.getName(), Toast.LENGTH_LONG);
+                        toast.show();
+                    }
+                });
+                dialog.show();
+
+
+                /*
+                Intent intent = new Intent(getApplicationContext(), FileChooserActivity.class);
+                startActivity(intent);
+                */
             }
         });
     }

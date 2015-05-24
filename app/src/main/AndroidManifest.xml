@@ -28,10 +28,7 @@
             android:name=".ContainerActivity"
             android:label="@string/title_activity_container" >
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_container" >
-        </activity>
+        <activity android:name="ar.com.daidalos.afiledialog.FileChooserActivity" />
     </application>
 
 </manifest>
