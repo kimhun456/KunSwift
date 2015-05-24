@@ -20,7 +20,6 @@ public class Obj {
         this.last_modified = last_modified;
     }
 
-
     public String getName() {
         return name;
     }

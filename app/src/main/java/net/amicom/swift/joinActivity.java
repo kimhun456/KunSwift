@@ -6,20 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.message.BasicNameValuePair;
-
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.List;
+import android.widget.Toast;
 
 
 public class joinActivity extends Activity {
@@ -51,59 +38,20 @@ public class joinActivity extends Activity {
             public void onClick(View v) {
 
                 User user = new User();
-                user.name=nameText.getText().toString();
-                user.id=idText.getText().toString();
-                user.password=pwText.getText().toString();
+                user.setName(nameText.getText().toString());
+                user.setId(idText.getText().toString());
+                user.setPassword(pwText.getText().toString());
 
 
                 Log.d("Http Post Response:", "make user");
 
-                makePostRequest(user);
+                SendThread send = new SendThread(user);
+                send.start();
 
+                Toast.makeText(joinActivity.this, "join transmit!", Toast.LENGTH_SHORT).show();
 
+                finish();
             }
         });
     }
-
-
-    private void makePostRequest(User user) {
-
-        String url= "http://127.0.0.1";
-
-        HttpClient httpClient = new DefaultHttpClient();
-        // replace with your url
-        HttpPost httpPost = new HttpPost(url);
-
-        Log.d("Http Post Response:", "connect");
-
-        //Post Data
-        List<NameValuePair> nameValuePair = new ArrayList<NameValuePair>();
-        nameValuePair.add(new BasicNameValuePair("name", user.name));
-        nameValuePair.add(new BasicNameValuePair("id", user.id));
-        nameValuePair.add(new BasicNameValuePair("password", user.password));
-
-
-        //Encoding POST data
-        try {
-            httpPost.setEntity(new UrlEncodedFormEntity(nameValuePair));
-        } catch (UnsupportedEncodingException e) {
-            // log exception
-            e.printStackTrace();
-        }
-
-        //making POST request.
-        try {
-            HttpResponse response = httpClient.execute(httpPost);
-            // write response to log
-            Log.d("Http Post Response:", response.toString());
-        } catch (ClientProtocolException e) {
-            // Log exception
-            e.printStackTrace();
-        } catch (IOException e) {
-            // Log exception
-            e.printStackTrace();
-        }
-
-    }
-
 }

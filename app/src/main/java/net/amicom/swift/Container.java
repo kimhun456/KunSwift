@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by amicom on 2015. 5. 23..
  */
-public class Container{
+public class Container {
 
     private int MAXSIZE = 300 * (1024 * 1024); // 300mbyte
 
