@@ -8,6 +8,8 @@ import java.util.ArrayList;
 /**
  * Created by amicom on 2015. 5. 23..
  */
+
+
 public class ContainerDTO implements Parcelable {
 
     private int MAXSIZE = 300 * (1024 * 1024); // 300mbyte
@@ -15,6 +17,11 @@ public class ContainerDTO implements Parcelable {
     private String name;
     private int size;
     private ArrayList<Obj> objectList;
+    private String authURL;
+    private String tenantName;
+    private String userName;
+    private String userPassword;
+
 
     public ContainerDTO(String name, int size, ArrayList<Obj> objectList) {
         this.setName(name);
@@ -22,10 +29,15 @@ public class ContainerDTO implements Parcelable {
         this.setSize(size);
     }
 
+
     public ContainerDTO(Parcel src) {
         this.setName(src.readString());
         this.setSize(src.readInt());
         this.objectList = (ArrayList<Obj>) src.readSerializable();
+        setAuthURL(src.readString());
+        setName(src.readString());
+        setTenantName(src.readString());
+        setUserPassword(src.readString());
     }
 
     public ContainerDTO() {
@@ -80,6 +92,38 @@ public class ContainerDTO implements Parcelable {
         this.objectList = objectList;
     }
 
+    public String getAuthURL() {
+        return authURL;
+    }
+
+    public void setAuthURL(String authURL) {
+        this.authURL = authURL;
+    }
+
+    public String getTenantName() {
+        return tenantName;
+    }
+
+    public void setTenantName(String tenantName) {
+        this.tenantName = tenantName;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getUserPassword() {
+        return userPassword;
+    }
+
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
+    }
+
     public class CustomCreator implements Parcelable.Creator<ContainerDTO> {
         public ContainerDTO createFromParcel(Parcel src) {
             return new ContainerDTO(src);
@@ -95,13 +139,16 @@ public class ContainerDTO implements Parcelable {
         return 0;
     }
 
-
     @Override
     public void writeToParcel(Parcel dest, int flags) {
 
         dest.writeString(name);
         dest.writeInt(size);
-        dest.writeSerializable(this.objectList);
+        dest.writeSerializable(objectList);
+        dest.writeString(getAuthURL());
+        dest.writeString(getName());
+        dest.writeString(getTenantName());
+        dest.writeString(getUserPassword());
 
     }
 }

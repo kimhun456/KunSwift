@@ -96,6 +96,7 @@ public class ContainerActivity extends Activity {
                 dialog.addListener(new FileChooserDialog.OnFileSelectedListener() {
                     @Override
                     public void onFileSelected(Dialog source, File file) {
+
                         Toast toast = Toast.makeText(ContainerActivity.this, "File selected: " + file.getName(), Toast.LENGTH_LONG);
                         toast.show();
                     }
