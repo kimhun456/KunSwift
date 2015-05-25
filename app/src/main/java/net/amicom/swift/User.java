@@ -7,9 +7,10 @@ public class User {
     private String name;
     private String id;
     private String password;
-    private Container container;
+    private boolean login;
+    private ContainerDTO container;
 
-    User(String name, String id, String password, Container container) {
+    User(String name, String id, String password, ContainerDTO container) {
         this.setContainer(container);
         this.setId(id);
         this.setName(name);
@@ -17,7 +18,7 @@ public class User {
     }
 
 
-    User(){
+    User() {
 
     }
 
@@ -46,11 +47,19 @@ public class User {
         this.password = password;
     }
 
-    public Container getContainer() {
+    public ContainerDTO getContainer() {
         return container;
     }
 
-    public void setContainer(Container container) {
+    public void setContainer(ContainerDTO container) {
         this.container = container;
+    }
+
+    public boolean isLogin() {
+        return login;
+    }
+
+    public void setLogin(boolean login) {
+        this.login = login;
     }
 }

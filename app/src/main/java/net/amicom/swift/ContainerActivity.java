@@ -34,7 +34,7 @@ public class ContainerActivity extends Activity {
         //asdf
 
 
-        Container container = new Container();
+        ContainerDTO container = new ContainerDTO();
         container.setName("Hyun Jae");
         userName.setText(container.getName());
         ArrayList<Obj> objlist = new ArrayList<Obj>();

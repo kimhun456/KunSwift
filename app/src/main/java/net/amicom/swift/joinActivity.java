@@ -41,13 +41,12 @@ public class joinActivity extends Activity {
                 user.setName(nameText.getText().toString());
                 user.setId(idText.getText().toString());
                 user.setPassword(pwText.getText().toString());
-
+                user.setLogin(false);
 
                 Log.d("Http Post Response:", "make user");
 
                 SendThread send = new SendThread(user);
                 send.start();
-
                 Toast.makeText(joinActivity.this, "join transmit!", Toast.LENGTH_SHORT).show();
 
                 finish();

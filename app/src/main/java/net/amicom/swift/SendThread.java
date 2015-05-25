@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * Created by amicom on 2015. 5. 24..
  */
-public class SendThread extends Thread {
+public class SendThread extends Thread implements Runnable {
 
 
     private User user;
@@ -32,10 +32,10 @@ public class SendThread extends Thread {
 
 
         // login
-        if (user.getName().equals("")) {
+        if (user.isLogin()) {
             loginRequest(user);
 
-            Log.d("network","login request is sended");
+            Log.d("network", "login request is sended");
         }
         // join
         else {
