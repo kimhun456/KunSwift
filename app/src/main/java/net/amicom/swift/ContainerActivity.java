@@ -31,7 +31,7 @@ public class ContainerActivity extends Activity {
         uploadButton = (Button) findViewById(R.id.uploadButton);
 
 
-        //asdf
+        //Example
 
 
         ContainerDTO container = new ContainerDTO();
@@ -39,15 +39,15 @@ public class ContainerActivity extends Activity {
         userName.setText(container.getName());
         ArrayList<Obj> objlist = new ArrayList<Obj>();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             Obj o = new Obj();
             o.setBytes(i * 10);
             o.setLast_modified("date : " + i);
-            o.setName("User " + i);
+            o.setName("Object  " + i);
             objlist.add(o);
         }
 
-        //asdf
+        //Example END
 
 
         container.setObjectList(objlist);

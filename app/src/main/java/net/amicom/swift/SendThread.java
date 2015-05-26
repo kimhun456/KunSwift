@@ -1,5 +1,6 @@
 package net.amicom.swift;
 
+import android.content.Intent;
 import android.util.Log;
 
 import org.apache.http.HttpResponse;
@@ -44,6 +45,13 @@ public class SendThread extends Thread implements Runnable {
             Log.d("network", "join request is sended");
         }
 
+        //
+
+        ContainerDTO cdt = new ContainerDTO();
+
+        Intent intent = new Intent();
+
+        //
     }
 
 

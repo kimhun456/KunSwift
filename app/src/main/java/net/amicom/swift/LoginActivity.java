@@ -40,6 +40,8 @@ public class LoginActivity extends Activity {
                 SendThread send = new SendThread(user);
                 send.start();
                 */
+
+
                 Intent intent = new Intent(getApplicationContext(), ContainerActivity.class);
                 startActivity(intent);
 
