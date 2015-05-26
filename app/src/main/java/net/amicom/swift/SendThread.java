@@ -22,7 +22,6 @@ import java.util.List;
  */
 public class SendThread extends Thread implements Runnable {
 
-
     private User user;
 
     SendThread(User user) {
