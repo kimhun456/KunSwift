@@ -17,6 +17,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
 }
 
 
@@ -39,7 +48,7 @@ dependencies {
     compile 'com.github.gabrielemariotti.cards:cardslib-extra-dragdrop:2.1.0'
 
     compile 'org.javaswift:joss:0.9.8'
-    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'org.json:json:20140107'
 
     compile project(':libraries:filedialog')
 }

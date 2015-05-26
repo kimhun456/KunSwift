@@ -2,39 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-cards/2.1.0/jars/classes.jar"
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/com.nhaarman.listviewanimations/lib-core/3.1.0/f3f9629b068554d8513a2aaf34418171bf430851/lib-core-3.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9ec1d846000db2b979dac2159584f027195a8174">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-8afe6b2e42fbcd90918e7b5180982fde67e9966f.jar" />
+        sha1="f3f9629b068554d8513a2aaf34418171bf430851">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/lib-core-3.1.0-cd42034404ad3f837f1b94c176a46403c71733c0.jar" />
     </item>
     <item
-        jar="/Users/HyunJae/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.2/358c500a1262d77e87167cbd0fdfb3ae8eca4fca/jcl-over-slf4j-1.7.2.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-eebb6424fb179eafc2f7a07df73d9182dc8a6a9f.jar" />
+        sha1="358c500a1262d77e87167cbd0fdfb3ae8eca4fca">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/jcl-over-slf4j-1.7.2-5acffca18404fcd0125207ac6ef541f4d3b0aaaa.jar" />
     </item>
     <item
-        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/Swift_app.libraries/filedialog/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-66c41bd0cb9da140aa9a7064a70e70306a293d7b.jar" />
+        sha1="f147c2881069835056bab59029f70dbe19ad9bd3">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-a1f9bfebc457a230dc962627869bf3c3d2812705.jar" />
     </item>
     <item
-        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/jars/classes.jar"
+        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="22886d910315028a2b34b1ba068c265534ade87a">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-c7e36a8f7bd37f5246c55e271b43326d0189b79e.jar" />
-    </item>
-    <item
-        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.etsy.android.grid/library/1.0.5/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-1a167fb524a63d73f68cc5faa50f6557af96c7fd.jar" />
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-c79c96e87cdaefc8f2f8843bf87cc05b226962a5.jar" />
     </item>
     <item
         jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
@@ -51,6 +44,20 @@
         <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-8c9eb7e6f7b4bb03a207959f68f1d5d7c291f027.jar" />
     </item>
     <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-5b83678a50891602d1db17e43323eb883582088c.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.2/81d61b7f33ebeab314e07de0cc596f8e858d97/slf4j-api-1.7.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0081d61b7f33ebeab314e07de0cc596f8e858d97">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.2-ab2bf551e362c24c683f81ddb2917f991896b0ee.jar" />
+    </item>
+    <item
         jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-recyclerview/2.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -58,25 +65,60 @@
         <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-984abb50634acf9084558a2493bdb34d516635c6.jar" />
     </item>
     <item
-        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/org.javaswift/joss/0.9.8/785c28304e8de4136f39828903ddf0e3343d7ba9/joss-0.9.8.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-4fb7d93d15298c01d804e83fe74f78d092956147.jar" />
+        sha1="785c28304e8de4136f39828903ddf0e3343d7ba9">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/joss-0.9.8-655cc89f1fb1165ffab27022dc51bb76bfb2c612.jar" />
     </item>
     <item
-        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/63737e512fcd9e0ebe9bcd0bb375c2dded74116f/lib-manipulation-3.1.0.jar"
+        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/lib-manipulation-3.1.0-35a435ce890ead53f8b61e690ab1c2e4e0c63e28.jar" />
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-66c41bd0cb9da140aa9a7064a70e70306a293d7b.jar" />
     </item>
     <item
-        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/Swift_app.libraries/filedialog/unspecified/jars/classes.jar"
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-core/2.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="f147c2881069835056bab59029f70dbe19ad9bd3">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-a1f9bfebc457a230dc962627869bf3c3d2812705.jar" />
+        sha1="8190861e323934dad89d5e6b830ea66878c11970">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-4fe7373bcd6d886bed06fd9e43d48cc86ea04144.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-recyclerview/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c187f5fc4f47d1abb8839d124591502ece9b7a37">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-8d2f3f1d25106307a1a59f29888e7f5f98294a25.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.etsy.android.grid/library/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-1a167fb524a63d73f68cc5faa50f6557af96c7fd.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-cards/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ec1d846000db2b979dac2159584f027195a8174">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-f654e4960eb758d9250b9e8073f852f5baa243b2.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-cards/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ec1d846000db2b979dac2159584f027195a8174">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-8afe6b2e42fbcd90918e7b5180982fde67e9966f.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-eebb6424fb179eafc2f7a07df73d9182dc8a6a9f.jar" />
     </item>
     <item
         jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-core/2.1.0/jars/classes.jar"
@@ -100,18 +142,109 @@
         <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-bec3acd4abc618b58b06729cc84d593d751c0fbc.jar" />
     </item>
     <item
-        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-extra-dragdrop/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="51946b4ca8e38b3be550798723faf47dacb3a444">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-61c81a31749e924b0558227e8aea98542c4f93ce.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-abb770d2d893ddc03e16f671e512ed9ec7b31324.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.7/3bc2efad5ceb9e24e44f731d4282b5df3ea6d23f/jackson-mapper-asl-1.9.7.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3bc2efad5ceb9e24e44f731d4282b5df3ea6d23f">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/jackson-mapper-asl-1.9.7-4af0f5765853b2280ba0f3d764ed483092a7fc09.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-b27c5e4a7fc368686e0999054bf88abce8f06099.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/commons-lang-2.6-98c7c11125889a361cf54a1a40c4dde61f033fdb.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/KunSwift.libraries/filedialog/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="901a8306a2496b56abf50ff44ec31cf74b5e7a34">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-6a0f2937a94817615add99df8bd6273d5f0c7921.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.7/2dd41e7570f5c73e63a6a1311671a60c817e1989/jackson-core-asl-1.9.7.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2dd41e7570f5c73e63a6a1311671a60c817e1989">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/jackson-core-asl-1.9.7-206c22c40516a3fe57bbf370042dba5c4c690b75.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-4fb7d93d15298c01d804e83fe74f78d092956147.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.3/cd8d6ffc833cc63c30d712a180f4663d8f55799b/commons-io-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cd8d6ffc833cc63c30d712a180f4663d8f55799b">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/commons-io-2.3-d239aa102e37c3705b3d5dde295d42235fec6c60.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/63737e512fcd9e0ebe9bcd0bb375c2dded74116f/lib-manipulation-3.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/lib-manipulation-3.1.0-35a435ce890ead53f8b61e690ab1c2e4e0c63e28.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-c79c96e87cdaefc8f2f8843bf87cc05b226962a5.jar" />
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-923156bb4e98ddbd1ac2d5f4561cff81ebb8f30e.jar" />
     </item>
     <item
-        jar="/Users/HyunJae/.gradle/caches/modules-2/files-2.1/com.nhaarman.listviewanimations/lib-core/3.1.0/f3f9629b068554d8513a2aaf34418171bf430851/lib-core-3.1.0.jar"
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/cardslib-extra-staggeredgrid/2.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="f3f9629b068554d8513a2aaf34418171bf430851">
-        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/lib-core-3.1.0-cd42034404ad3f837f1b94c176a46403c71733c0.jar" />
+        sha1="50229116d50d9475f4a9fc4d497845aa18e9518f">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-3519dc56ceb9a7e44728ef84ce5709111273c40f.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.etsy.android.grid/library/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-21a08a10883885e25e360a53bcc335cc5f7fa3f7.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/KunSwift/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="/Users/HyunJae/KunSwift/app/build/intermediates/pre-dexed/debug/classes-46f1c3649b530fd1f961a8cab36ea23ce876b786.jar" />
+    </item>
+    <item
+        jar="/Users/HyunJae/Swift_app/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="22886d910315028a2b34b1ba068c265534ade87a">
+        <dex dex="/Users/HyunJae/Swift_app/app/build/intermediates/pre-dexed/debug/classes-c7e36a8f7bd37f5246c55e271b43326d0189b79e.jar" />
     </item>
 
 </items>

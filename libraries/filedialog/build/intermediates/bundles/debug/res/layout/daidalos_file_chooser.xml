@@ -46,4 +46,4 @@
             android:text="@string/daidalos_ok" />
         
     </LinearLayout>
-</LinearLayout><!-- From: file:/Users/HyunJae/Swift_app/libraries/filedialog/src/main/res/layout/daidalos_file_chooser.xml -->
+</LinearLayout><!-- From: file:/Users/HyunJae/KunSwift/libraries/filedialog/src/main/res/layout/daidalos_file_chooser.xml -->
